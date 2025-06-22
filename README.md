@@ -33,9 +33,13 @@ Create a .env file and configure the following:
 # Environment Variables for AI Webscraper Agent
 # Replace 'your_key_here' with your actual API keys
 
-BRIGHTDATA_API_KEY=your_key_here
+# Bright Data
+API_TOKEN=your_key_here
+WEB_UNLOCKER_ZONE=your_key_here
+BROWSER_AUTH="your_browser_auth_token"
+
+#Anthropic AI API KEY
 ANTHROPIC_API_KEY=your_key_here
-MCP_SERVER_URL=https://your-brightdata-mcp-server
 ```
 
 ## 📦 Installation
